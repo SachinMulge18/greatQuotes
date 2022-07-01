@@ -1,0 +1,10 @@
+.center{
+    background: #d6ebed;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    padding: 1rem;
+    border: none;
+    letter-spacing: 2px;
+}
