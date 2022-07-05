@@ -1,4 +1,5 @@
 .quote {
+  letter-spacing: 1px;
   background-color: #162b2b;
   color: white;
   border-radius: 6px;
@@ -17,4 +18,30 @@
   font-size: 1.5rem;
   text-align: right;
   color: #a1e0e0;
+}
+
+@media screen and (max-width: 640px) {
+  .quote {
+    
+    background-color: #162b2b;
+    color: white;
+    border-radius: 6px;
+    padding: 2rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .quote p {
+    
+  letter-spacing: 2px;
+    font-size: 1.2rem;
+  }
+  
+  .quote figcaption {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #a1e0e0;
+  } 
 }

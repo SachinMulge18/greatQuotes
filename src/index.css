@@ -4,6 +4,7 @@
 
 body {
   font-family: sans-serif;
+  letter-spacing: 1px;
   margin: 0;
   background-color: #e7f8f8;
 }
@@ -53,4 +54,24 @@ body {
 .btn--flat:active {
   background-color: teal;
   color: white;
+}
+
+@media screen and (max-width:640px) {
+  
+.btn {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border: 1px solid teal;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #11acac;
+  border-color: #11acac;
+}
 }
